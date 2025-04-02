@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px 40px;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Hero */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 60px 40px;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    color: #d1d5db;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    background-color: #6b7280;
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Info Section */
+  .info-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .info-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .info-item {
+    max-width: 150px;
+  }
+  
+  .img-placeholder {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Quote Section */
+  .quote-section {
+    background-color: #e5e7eb;
+    padding: 60px 40px;
+    font-size: 18px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  /* CTA Section */
+  .cta {
+    background-color: #3882f6;
+    color: white;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cta-content button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
